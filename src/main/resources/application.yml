@@ -1,0 +1,11 @@
+server:
+    port: 8080
+spring:
+    application:
+        name: spring-customized-validation
+    profiles:
+        active: test
+   
+---     
+spring:
+    profile: test
